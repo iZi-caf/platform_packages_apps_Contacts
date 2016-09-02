@@ -17,621 +17,296 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name used in Settings/Apps. Default label for activities
          that don't specify a label. -->
-  <string name="applicationLabel">Contactos</string>
   <!-- Title for the activity that launches Contacts.  This is the name
          used in the Launcher icon. -->
-  <string name="launcherActivityLabel">Contactos</string>
   <!-- Directory partition name -->
-  <string name="contactsList">Contactos</string>
   <!-- Name of activity that allows users to create shortcuts on the home screen to a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
-  <string name="shortcutContact">Contacto</string>
   <!-- Name of activity that allows users to create shortcuts on the home screen to dial a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
-  <string name="shortcutDialContact">Marcação directa</string>
   <!-- Name of activity that allows users to create shortcuts on the home screen to message (SMS) a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
-  <string name="shortcutMessageContact">Mensagem directa</string>
   <!-- Activity title when the user is selecting a contact for a shortcut. -->
-  <string name="shortcutActivityTitle">Seleccionar um atalho de contacto</string>
   <!-- Activity title when the user is selecting a contact for a direct dial shortcut. -->
-  <string name="callShortcutActivityTitle">Seleccionar um número a marcar</string>
   <!-- Activity title when the user is selecting a contact for a direct message shortcut. -->
-  <string name="messageShortcutActivityTitle">Seleccionar um número para enviar mensagem</string>
   <!-- Activity title when the user is inserting into an existing contact, or creating a new one.  [CHAR LIMIT=128] -->
-  <string name="contactInsertOrEditActivityTitle">Adicionar ao contacto</string>
   <!-- Activity title when the user is selecting a contact.  [CHAR LIMIT=128] -->
-  <string name="contactPickerActivityTitle">Escolher um contacto</string>
   <!-- Entry that prompts user to select a newly created contact.  [CHAR LIMIT=30] -->
-  <string name="header_entry_contact_list_adapter_header_title">Criar novo contacto</string>
   <!-- Title for the activity that shows only starred contacts -->
-  <string name="starredList">Marcado com estrela</string>
   <!-- Title for the activity that shows only frequently contacted contacts -->
-  <string name="frequentList">Frequentes</string>
   <!-- Title for the activity that shows a mix of starred contacts and frequently contacted
          contacts. -->
-  <string name="strequentList">Favoritos</string>
   <!-- The title bar when viewing the contact details activity -->
-  <string name="viewContactTitle">Detalhes de contacto</string>
   <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          editing a contact. This string represents the built in way to edit the contact. -->
-  <string name="editContactDescription">Editar contacto</string>
   <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          creating a new contact. This string represents the built in way to create the contact. -->
-  <string name="insertContactDescription">Criar contacto</string>
   <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          editing a group. This string represents the built in way to edit the group. [CHAR LIMIT=NONE] -->
-  <string name="editGroupDescription">Editar grupo</string>
   <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          creating a new group. This string represents the built in way to create the group. [CHAR LIMIT=NONE] -->
-  <string name="insertGroupDescription">Criar grupo</string>
   <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
-  <string name="contactDetailAbout">Acerca de</string>
   <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
-  <string name="contactDetailUpdates">Atualiz.</string>
   <!-- Hint text in the search box when the user hits the Search key while in the contacts app -->
-  <string name="searchHint">Pesquisar contactos</string>
   <!-- Menu item used to view the details for a specific contact -->
-  <string name="menu_viewContact">Visualizar contacto</string>
   <!-- Menu item used to add a star to a contact, which makes that contact show up at the top of favorites -->
-  <string name="menu_addStar">Adicionar aos favoritos</string>
   <!-- Menu item used to remove a star from a contact, making the contact no longer show up at the top of favorites -->
-  <string name="menu_removeStar">Remover dos favoritos</string>
   <!-- Description of what happens when you click on the unstar MenuItem. [CHAR LIMIT=NONE] -->
-  <string name="description_action_menu_remove_star">Removido dos favoritos</string>
   <!-- Description of what happens when you click on the star MenuItem. [CHAR LIMIT=NONE] -->
-  <string name="description_action_menu_add_star">Adicionado aos favoritos</string>
   <!-- Menu item used to edit a specific contact -->
-  <string name="menu_editContact">Editar</string>
   <!-- Menu item used to insert a contact from scanning QR-code -->
-  <string name="menu_insertContactFromQrcod">inserir</string>
   <!-- Menu item used to delete a specific contact -->
-  <string name="menu_deleteContact">Eliminar</string>
   <!-- Menu item used to change the photo for a specific contact [CHAR LIMIT=30]-->
-  <string name="menu_change_photo">Alterar fotografia</string>
   <!-- Menu item used to create a contact shortcut when viewing contact details. [CHAR LIMIT=30] -->
-  <string name="menu_create_contact_shortcut">Colocar no ecrã principal</string>
   <!-- Menu item used to call a specific contact when viewing the details of that contact. -->
-  <string name="menu_call">Ligar para contacto</string>
   <!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->
-  <string name="menu_sendSMS">Enviar SMS/MMS para contacto</string>
   <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
-  <string name="menu_splitAggregate">Separar</string>
   <!-- Menu item that edits the currently selected group [CHAR LIMIT=30] -->
-  <string name="menu_editGroup">Editar</string>
   <!-- Menu item that deletes the currently selected group [CHAR LIMIT=30] -->
-  <string name="menu_deleteGroup">Eliminar</string>
-  <string name="menu_moveGroupMembers">Mover membros do grupo</string>
   <!-- Menu item (in the action bar) that creates a new contact [CHAR LIMIT=30] -->
-  <string name="menu_new_contact_action_bar">Adicionar Contacto</string>
   <!-- Menu item (in the action bar) that creates a new group [CHAR LIMIT=30] -->
-  <string name="menu_new_group_action_bar">Adicionar Grupo</string>
   <!-- Title of the confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=26] -->
-  <string name="splitConfirmation_title">Separar contacto?</string>
   <!-- Confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=NONE] -->
-  <string name="splitConfirmation">Este contacto será separado em vários contactos.</string>
   <!-- Menu item that joins an aggregate with another aggregate -->
-  <string name="menu_joinAggregate">Unir</string>
   <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
-  <string name="menu_save">Guardar</string>
   <!-- Heading of the Join Contact screen -->
-  <string name="titleJoinContactDataWith">Associar contactos</string>
   <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
-  <string name="blurbJoinContactDataWith">Escolha o contacto que pretende associar a <xliff:g id="NAME">%s</xliff:g>:</string>
   <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
-  <string name="showAllContactsJoinItem">Mostrar todos os contactos</string>
   <!-- List separator for the Join Contact list: Suggestions -->
-  <string name="separatorJoinAggregateSuggestions">Contactos sugeridos</string>
   <!-- List separator for the Join Contact list: A-Z -->
-  <string name="separatorJoinAggregateAll">Todos os contactos</string>
   <!-- Toast shown after two contacts have been joined by a user action. [CHAR LIMIT=NONE] -->
-  <string name="contactsJoinedMessage">Contactos unidos</string>
   <!-- Toast shown after contacts that the user has selected are deleted by a user action. [CHAR LIMIT=NONE] -->
-  <string name="contacts_deleted_toast">Contactos eliminados</string>
   <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=15] -->
-  <string name="menu_set_ring_tone">Definir toque</string>
   <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=30] -->
-  <string name="menu_redirect_calls_to_vm">Todas as cham. p/ correio voz</string>
   <!-- Warning dialog contents after users selects to delete a ReadOnly contact. [CHAR LIMIT=NONE] -->
-  <string name="readOnlyContactWarning">Não pode eliminar contactos de contas só de leitura, mas pode ocultá-los nas suas listas de contactos.</string>
   <!-- Warning dialog contents after users selects to delete a contact with ReadOnly and Writable sources. -->
-  <string name="readOnlyContactDeleteConfirmation">Este contacto contém informações de várias contas. As informações de contas só de leitura serão ocultadas nas suas listas de contactos, mas não eliminadas.</string>
   <!-- Warning dialog. Shown if user selects a single contact to merge. [CHAR LIMIT=NONE]  -->
-  <string name="batch_merge_single_contact_warning">Necessita de, pelo menos, dois contactos selecionados para efetuar uma união.</string>
   <!-- Confirmation dialog. Shown after user selects to merge contacts. [CHAR LIMIT=NONE]  -->
-  <string name="batch_merge_confirmation">Os contactos selecionados vão ser unidos num único contacto.</string>
   <!-- Confirmation dialog. Shown after user selects to delete writable contacts. [CHAR LIMIT=NONE]  -->
-  <string name="batch_delete_confirmation">Os contactos selecionados vão ser eliminados.</string>
   <!-- Confirmation dialog. Shown after user selects to delete readonly contacts. [CHAR LIMIT=NONE] -->
-  <string name="batch_delete_read_only_contact_confirmation">As informações de contas só de leitura vão ser ocultadas nas suas listas de contactos, mas não eliminadas.</string>
   <!-- Confirmation dialog. Shown after user selects to delete contacts from multiple accounts. [CHAR LIMIT=NONE]  -->
-  <string name="batch_delete_multiple_accounts_confirmation">Estes contactos contêm informações de várias contas. As informações de contas só de leitura vão ser ocultadas nas suas listas de contactos, mas não eliminadas.</string>
   <!-- Warning dialog contents after users selects to delete a contact with multiple Writable sources. -->
-  <string name="multipleContactDeleteConfirmation">A eliminação deste contacto eliminará informações de várias contas.</string>
   <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
-  <string name="deleteConfirmation">Este contacto será eliminado.</string>
   <!-- Menu item to indicate you want to stop editing a contact and NOT save the changes you've made [CHAR LIMIT=30] -->
-  <string name="menu_discard">Rejeitar alterações</string>
   <!-- Message displayed in a toast when you try to view the details of a contact that
          for some reason doesn't exist anymore. [CHAR LIMIT=NONE]-->
-  <string name="invalidContactMessage">O contacto não existe.</string>
   <!-- Message displayed in a toast after you create a contact shortcut in the launcher [CHAR LIMIT=NONE]-->
-  <string name="createContactShortcutSuccessful">Widget de contacto adicionado ao seu Ecrã principal.</string>
   <!-- When picking a contact from a list of all contacts there is an entry at the top of the
          list that allows the user to create a new contact, which this string is used for -->
-  <string name="pickerNewContactHeader">Criar novo contacto</string>
   <!-- Text for a "create new contact" button on the bottom of the contact picker screen.
          The text will be all capitalized.
          [CHAR LIMIT=30] -->
-  <string name="pickerNewContactText">Criar novo contacto</string>
   <!-- The order of the items below is important, don't reorder without changing EditContactActivity.java -->
   <!-- The labels that are under the otherLabelsGroup when editing a contact. [CHAR LIMIT=20] -->
-  <string-array name="otherLabels">
-    <!-- An organization associated with a contact -->
-    <item>Organização</item>
-    <!-- A note associated with a contact -->
-    <item>Nota</item>
-  </string-array>
   <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
-  <string name="photoPickerNotFoundText" product="tablet">Não existem imagens disponíveis no tablet.</string>
   <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
-  <string name="photoPickerNotFoundText" product="default">Não existem imagens disponíveis no telefone.</string>
   <!-- Description used in the attach photo Intent from third party apps [CHAR LIMIT=50] -->
-  <string name="attach_photo_dialog_title">Fotografia do contacto</string>
   <!-- Title of the dialog used to set a custom label for a contact detail, like a phone number or email address.
          For example, this may be used to set a phone number's label to "Vaction house" -->
-  <string name="customLabelPickerTitle">Nome da etiqueta personalizada</string>
   <!-- Check box label that allows calls to the contact to be sent directly to voicemail -->
-  <string name="send_to_voicemail_checkbox">Enviar as chamadas diretamente para o correio de voz</string>
   <!-- The menu item that allows you to remove a photo from a contact [CHAR LIMIT=50] -->
-  <string name="removePhoto">Remover fotografia</string>
   <!-- The text displayed when the contacts list is empty while displaying all contacts [CHAR LIMIT=NONE] -->
-  <string name="noContacts">Sem contactos.</string>
   <!-- The text displayed when the groups list is empty while displaying all groups [CHAR LIMIT=NONE] -->
-  <string name="noGroups">Nenhum grupo.</string>
   <!-- The text displayed when the groups list is empty and no accounts are set on the device while displaying all groups [CHAR LIMIT=NONE] -->
-  <string name="noAccounts">Para criar grupos precisa de uma conta</string>
   <!-- The text displayed when there are no members in the group while displaying the group detail page [CHAR LIMIT=40] -->
-  <string name="emptyGroup">Sem pessoas neste grupo.</string>
   <!-- The text displayed to instruct users to add members to a group (when viewing a group detail page for a group with no members) [CHAR LIMIT=50] -->
-  <string name="addPeopleToGroup">Para adicionar algumas, edite o grupo.</string>
   <!-- Displayed in a spinner dialog after the user creates a contact and it's being saved to the database -->
-  <string name="savingContact">A guardar contacto...</string>
   <!-- Toast displayed when a contact is saved [CHAR LIMIT=NONE] -->
-  <string name="contactSavedToast">Contacto guardado.</string>
   <!-- Toast displayed when a contact is deleted [CHAR LIMIT=NONE] -->
-  <string name="contactDeletedToast">Contacto apagado.</string>
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
-  <string name="contactSavedErrorToast">Não foi possível guardar as alterações do contacto.</string>
   <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
-  <string name="contactPhotoSavedErrorToast">Não foi possível guardar as alterações à foto do contacto.</string>
   <!-- Toast displayed when saving a contact to sim card failed -->
-  <string name="contactSavedToSimCardError">Erro, carregamento Sim contatos.</string>
-  <string name="airplane_mode_on">Erro, modo avião está activado.</string>
-  <string name="number_anr_too_long">Erro: O número é muito longo.</string>
-  <string name="email_address_too_long">Erro: Endereço de e-mail é muito longo.</string>
-  <string name="sim_card_full">Erro, o cartão Sim está cheio.</string>
-  <string name="tag_too_long">Erro: O nome do contacto é muito longo.</string>
-  <string name="no_phone_number">Por favor, insira o número de telefone.</string>
-  <string name="invalid_phone_number">Erro: O número é inválido.</string>
-  <string name="invalid_number_type">Erro: O tipo de número é inválido.</string>
-  <string name="no_phone_number_or_email">Por favor insira um número de telefone ou endereço de e-mail.</string>
-  <string name="memory_card_full">Erro, a memória está quase cheia.</string>
-  <string name="edit_before_call">Editar número antes da chamada</string>
-  <string name="importConfirmation_title">Importar contacto?</string>
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
-  <string name="groupSavedToast">Grupo guardado.</string>
   <!-- Toast displayed when saving a group failed [CHAR LIMIT=NONE] -->
-  <string name="groupSavedErrorToast">Não foi possível guardar as alterações do grupo.</string>
   <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" is selected -->
-  <plurals name="listTotalPhoneContacts">
-    <item quantity="one">1 contacto com número de telefone</item>
-    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> contactos com números de telefone</item>
-  </plurals>
   <!-- Displayed at the top of the contacts showing the zero as total number of contacts visible when "Only contacts with phones" is selected [CHAR LIMIT=64]-->
-  <string name="listTotalPhoneContactsZero">Sem contactos com números de telefone</string>
   <!-- Displayed at the top of the contacts showing the total number of contacts found when "Only contacts with phones" not selected [CHAR LIMIT=30] -->
-  <plurals name="listFoundAllContacts">
-    <item quantity="one">1 encontrado</item>
-    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> encontrados</item>
-  </plurals>
   <!-- Displayed at the top of the contacts showing the zero total number of contacts found when "Only contacts with phones" not selected. [CHAR LIMIT=30] -->
-  <string name="listFoundAllContactsZero">Sem contactos</string>
   <!-- Displayed at the top of the contacts showing the total number of contacts found when typing search query -->
-  <plurals name="searchFoundContacts">
-    <item quantity="one">1 encontrado</item>
-    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> encontrados</item>
-  </plurals>
   <!-- The title of "all contacts" tab. [CHAR LIMIT=14] -->
-  <string name="all_contacts_tab_label">Todos</string>
   <!-- The title of "favorites" tab. [CHAR LIMIT=14] -->
-  <string name="favorites_tab_label">Favoritos</string>
   <!-- The title of "groups" tab. [CHAR LIMIT=14] -->
-  <string name="contacts_groups_label">Grupos</string>
   <!-- Action string for calling back a number in the call log -->
-  <string name="callBack">Chamada de retorno</string>
   <!-- Action string for calling a number in the call log again -->
-  <string name="callAgain">Ligar novamente</string>
   <!-- Action string for returning a missed call in the call log -->
-  <string name="returnCall">Devolver chamada</string>
   <!-- Dialog message when prompting before creating a contact. Includes
          the email address, e.g. "Add xyz@foo.com to contacts?" -->
-  <string name="add_contact_dlg_message_fmt">Adicionar \"<xliff:g id="EMAIL">%s</xliff:g>\" aos contactos?</string>
   <!-- String describing the Contact Photo Image
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-  <string name="description_contact_photo">fotografia do contacto</string>
   <!-- String describing the Contact Editor Plus button
 
          Used by AccessibilityService to announce the purpose of the button.
     -->
-  <string name="description_plus_button">mais</string>
   <!-- Message in progress bar while exporting contact list to a file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
-  <string name="exporting_contact_list_progress"><xliff:g id="CURRENT_NUMBER">%s</xliff:g> de <xliff:g id="TOTAL_NUMBER">%s</xliff:g> contactos</string>
   <!-- The string used to describe Contacts as a searchable item within system search settings. -->
-  <string name="search_settings_description">Nomes dos contactos</string>
   <!-- Shown as a toast when the user taps on a QuickContact icon, and no application
          was found that could perform the selected action. [CHAR LIMIT=NONE] -->
-  <string name="quickcontact_missing_app">Não foram encontradas aplicações para executar esta ação</string>
   <!-- Content description for the transparent views around the visible section of QuickContacts.
          Clicking this view causes Quick Contacts to close. [CHAR LIMIT=NONE] -->
-  <string name="quickcontact_transparent_view_description">Clique para regressar ao ecrã anterior</string>
   <!-- When a contact has no data, we prompt the user to add a phone number for the contact. [CHAR LIMIT=40] -->
-  <string name="quickcontact_add_phone_number">Adicionar número de telefone</string>
   <!-- When a contact has no data, we prompt the user to add an email for the contact. [CHAR LIMIT=40] -->
-  <string name="quickcontact_add_email">Adicionar email</string>
   <!-- Shown as a toast when the user attempts an action (add contact, edit
          contact, etc) and no application was found that could perform that
          action. [CHAR LIMIT=NONE] -->
-  <string name="missing_app">Não foram encontradas aplicações para executar esta ação.</string>
   <!-- The menu item to share the currently viewed contact [CHAR LIMIT=30] -->
-  <string name="menu_share">Partilhar</string>
   <!-- The menu item to add the the currently viewed contact to your contacts [CHAR LIMIT=30] -->
-  <string name="menu_add_contact">Adicionar aos contactos</string>
   <!-- Dialog title when picking the application to share a contact with. -->
-  <string name="share_via">Partilhar contacto através de</string>
   <!-- Title for the disambiguation dialog that requests the user choose an account for the new group to be created under [CHAR LIMIT=NONE] -->
-  <string name="dialog_new_group_account">Criar grupo na conta</string>
-  <string name="title_move_members">Mover membros</string>
-  <string name="message_add_members">Adicionar membros...</string>
-  <string name="message_move_members">Mover membros...</string>
-  <string name="cancel_operation">A operação foi cancelada.</string>
-  <string name="message_can_not_move_members">Não é possível mover os membros</string>
   <!-- Generic action string for starting an audio chat. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
-  <string name="audio_chat">Chat de voz</string>
   <!-- Generic action string for starting a video chat. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
-  <string name="video_chat">Chat de vídeo</string>
   <!-- Title for the list of all contact details that come from third-party sources (including a corporate directory) [CHAR LIMIT=20] -->
-  <string name="connections">Ligações</string>
   <!-- Label of the button to open the "add connection" popup where the user can invite a contact to other social networks or services [CHAR LIMIT=32] -->
-  <string name="add_connection_button">Adicionar ligação</string>
   <!-- Section title for the page containing the contact's social updates on the contact card (this abbreviated version of "Recent updates" is used when "updates" is already shown as the title of the page) [CHAR LIMIT=20]-->
-  <string name="recent" msgid="2062236709538790412">Recentes</string>
   <!-- Section title for the page containing the contact's social updates on the contact card [CHAR LIMIT=20]-->
-  <string name="recent_updates" msgid="2018245636796411442">Atualiz. recentes</string>
   <!-- String describing which account type a contact came from when editing it -->
-  <string name="account_type_format">Contacto do <xliff:g id="SOURCE">%1$s</xliff:g></string>
   <!-- String describing that a contact came from the google account type when editing it.  -->
-  <string name="google_account_type_format">Conta <xliff:g id="SOURCE">%1$s</xliff:g></string>
   <!-- String describing which account a contact came from when editing it -->
-  <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s </xliff:g></string>
   <!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
-  <string name="contact_read_only">Não editável a partir desta aplicação.</string>
   <!-- Text used to explain that a group cannot be edited since the data is read only [CHAR LIMIT=40] -->
-  <string name="group_read_only">Não editável neste aparelho</string>
   <!-- An option in the 'Contact photo' dialog, if there is no photo yet [CHAR LIMIT=50] -->
-  <string name="take_photo">Tirar fotografia</string>
   <!-- An option in the 'Contact photo' dialog, if there is already a photo [CHAR LIMIT=50] -->
-  <string name="take_new_photo">Tirar nova fotografia</string>
   <!-- An option in the 'Contact photo' dialog, if there is no photo yet [CHAR LIMIT=50] -->
-  <string name="pick_photo">Escolher fotografia</string>
   <!-- An option in the 'Contact photo' dialog, if there is already a photo [CHAR LIMIT=50] -->
-  <string name="pick_new_photo">Selecionar nova fotografia</string>
   <!-- Text shown in the contacts app while the background process updates contacts after a system upgrade [CHAR LIMIT=300] -->
-  <string name="upgrade_in_progress">A lista de contactos está a ser atualizada.</string>
   <!-- Title shown in the search result activity of contacts app while searching.  [CHAR LIMIT=20] -->
-  <string name="search_results_searching">A pesquisar...</string>
   <!-- Label to display only selection in multiple picker -->
-  <string name="menu_display_selected">"Mostrar seleccionados"</string>
   <!-- Label to display all recipients in multiple picker -->
-  <string name="menu_display_all">"Mostrar tudo"</string>
   <!-- Label to select all contacts in multiple picker -->
-  <string name="menu_select_all">"Selecionar tudo"</string>
   <!-- Label to clear all selection in multiple picker -->
-  <string name="menu_select_none">"Desmarcar tudo"</string>
   <!-- The button to add another entry of a specific data type (i.e. email, phone, address) to a contact in the Raw Contact Editor [CHAR LIMIT=22] -->
-  <string name="add_new_entry_for_section">Adicionar novo</string>
   <!-- The button to add an organization field to a contact in the Raw Contact Editor [CHAR LIMIT=22] -->
-  <string name="add_organization">Adicionar entidade</string>
   <!-- The button to add an organization field to a contact in the Raw Contact Editor [CHAR LIMIT=12] -->
-  <string name="event_edit_field_hint_text">Data</string>
   <!-- The button to add an organization field to a contact in the Raw Contact Editor [CHAR LIMIT=15] -->
-  <string name="group_edit_field_hint_text">Nome do grupo</string>
   <!-- Button used for changing a photo in the Raw Contact Editor [CHAR LIMIT=15] -->
-  <string name="change_photo">Alterar</string>
   <!-- RadioButton that determines whether a raw contact's photo should be used for the entire contact [CHAR LIMIT=25] -->
-  <string name="primary_photo">Fot. principal</string>
   <!-- String describing the Star/Favorite checkbox
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-  <string name="description_star">favorito</string>
   <!-- The title of the Edit-Contact screen -->
-  <string name="edit_contact">Editar contacto</string>
   <!-- Shows how many contacts have been merged. The value 1 is not shown but should be translated
          anyway if we change our mind later -->
-  <plurals name="merge_info">
-    <item quantity="one">não intercalado</item>
-    <item quantity="other">intercalados de <xliff:g id="COUNT">%0$d</xliff:g> origens</item>
-  </plurals>
   <!-- The message in a confirmation dialog shown when the user selects a
         contact aggregation suggestion in Contact editor. [CHAR LIMIT=512]-->
-  <string name="aggregation_suggestion_join_dialog_message">Associar o contacto actual ao contacto selecionado?</string>
   <!-- The message in a confirmation dialog shown when the user selects a
         contact aggregation suggestion in Contact editor. [CHAR LIMIT=512]-->
-  <string name="aggregation_suggestion_edit_dialog_message">Alternar para edição do contacto selecionado? A informação introduzida até agora vai ser copiada.</string>
   <!-- The button that creates a local copy of a corporate contact. [CHAR LIMIT=40]-->
-  <string name="menu_copyContact">Copiar para Os Meus Contactos</string>
   <!-- The button that adds a contact to the predefined group "My Contacts" (as this is
          mostly interesting for Google-contacts, this should have the same description as the
          function of GMail/Contacts on the Web
          [CHAR LIMIT=40] -->
-  <string name="add_to_my_contacts">Adicionar aos Meus Contactos</string>
   <!-- The description of the directory where the contact was found [CHAR LIMIT=100]-->
-  <string name="contact_directory_description">Directório <xliff:g id="TYPE">%1$s</xliff:g></string>
   <!-- Contact list filter indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
-  <string name="list_filter_custom">Personalizado</string>
   <!-- Title of the settings activity [CHAR LIMIT=64] -->
-  <string name="activity_title_settings">Definições</string>
   <!-- Menu item for the settings activity [CHAR LIMIT=64] -->
-  <string name="menu_settings" msgid="377929915873428211">Definições</string>
   <!-- Menu item for invoking contextual Help & Feedback [CHAR LIMIT=64] -->
-  <string name="menu_help">Ajuda e comentários</string>
   <!-- The preference section title for contact display options [CHAR LIMIT=128] -->
-  <string name="preference_displayOptions">Opções de visualização</string>
   <!-- Text used to show a organization that has both a company and title. This is used in the Detail-View
     of a Contact. This is mostly about the formatting of the two elements, so it should be kept small [CHAR LIMIT=79] -->
-  <string name="organization_company_and_title"><xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g></string>
   <!-- Title shown for the phone number when the number tries to call on a device that it not a phone [CHAR LIMIT=30] -->
-  <string name="non_phone_caption">Número de telefone</string>
   <!-- Button to add a phone number to contacts [CHAR LIMIT=25] -->
-  <string name="non_phone_add_to_contacts">Adicionar aos contactos</string>
   <!-- Title of the activity that allows the user to confirm the addition of a detail to 1 existing contact [CHAR LIMIT=25] -->
-  <string name="activity_title_confirm_add_detail">Adicionar ao contacto</string>
   <!-- Button to close without add a phone number to contacts [CHAR LIMIT=25] -->
-  <string name="non_phone_close">Fechar</string>
   <!-- Format string that combines the name and the phonetic name for the widget. if the phonetic name is empty, only the display name is used instead [CHAR LIMIT=25] -->
-  <string name="widget_name_and_phonetic"><xliff:g id="DISPLAY_NAME">%1$s</xliff:g> (<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)</string>
   <!-- Checkbox whether to provide a year for a birthday [CHAR LIMIT=30] -->
-  <string name="date_year_toggle">Escolha um ano</string>
   <!-- Label for the widget that shows picture and social status of a contact [CHAR LIMIT=20] -->
-  <string name="social_widget_label">Contacto</string>
   <!-- Message of widget while it is loading data [CHAR LIMIT=20] -->
-  <string name="social_widget_loading">A carregar…</string>
   <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Creates a new contact. [CHAR LIMIT=128] -->
-  <string name="contacts_unavailable_create_contact">Criar novo contacto</string>
   <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Navigates to account setup [CHAR LIMIT=128] -->
-  <string name="contacts_unavailable_add_account">Iniciar sessão numa conta</string>
   <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Initiates a contact import dialog [CHAR LIMIT=128] -->
-  <string name="contacts_unavailable_import_contacts">Importar contactos</string>
   <!-- Title of the dialog that allows creation of a contact group [CHAR LIMIT=128] -->
-  <string name="create_group_dialog_title">Criar novo grupo</string>
   <!-- An item in the popup list of groups that triggers creation of a contact group [CHAR LIMIT=128] -->
-  <string name="create_group_item_label">Criar novo grupo</string>
   <!-- Shows how many groups are from the specified account [CHAR LIMIT=15] -->
-  <plurals name="num_groups_in_account">
-    <item quantity="one">1 grupo</item>
-    <item quantity="other"><xliff:g id="COUNT">%0$d</xliff:g> grupos</item>
-  </plurals>
   <!-- Confirmation message of the dialog that allows deletion of a contact group  [CHAR LIMIT=256] -->
-  <string name="delete_group_dialog_message">Eliminar o grupo \"<xliff:g id="GROUP_LABEL">%1$s</xliff:g>\"? (Os contactos não serão eliminados).</string>
   <!-- Subtitle of the group detail page that describes how many people are in the current group [CHAR LIMIT=30] -->
-  <plurals name="num_contacts_in_group">
-    <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> pessoa de <xliff:g id="ACCOUNT_TYPE_1">%2$s</xliff:g></item>
-    <item quantity="other"><xliff:g id="COUNT_2">%1$d</xliff:g> pessoas de <xliff:g id="ACCOUNT_TYPE_3">%2$s</xliff:g></item>
-  </plurals>
   <!-- Subtitle of a group (in the group list) that describes how many people are in the current group [CHAR LIMIT=30] -->
-  <plurals name="group_list_num_contacts_in_group">
-    <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> pessoa</item>
-    <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> pessoas</item>
-  </plurals>
   <!-- Toast displayed when the user creates a new contact and attempts to join it
       with another before entering any data  [CHAR LIMIT=256] -->
-  <string name="toast_join_with_empty_contact">Introduza o nome do contacto antes de juntar a outro contacto.</string>
   <!-- Option displayed in context menu to copy long pressed item to clipboard [CHAR LIMIT=64] -->
-  <string name="copy_text">Copiar para área de transf.</string>
   <!-- Option displayed in context menu to set long pressed item as default contact method [CHAR LIMIT=64] -->
-  <string name="set_default">Definir a predefinição</string>
   <!-- Option displayed in context menu to clear long pressed item as default contact method [CHAR LIMIT=64] -->
-  <string name="clear_default">Limpar predefinição</string>
   <!-- Toast shown when text is copied to the clipboard [CHAR LIMIT=64] -->
-  <string name="toast_text_copied">Texto copiado</string>
   <!-- Contents of the alert dialog when the user hits the Cancel button in the editor [CHAR LIMIT=128] -->
-  <string name="cancel_confirmation_dialog_message">Rejeitar as alterações?</string>
   <!-- Description of a call log entry, made of a call type and a date -->
-  <string name="call_type_and_date"><xliff:g id="CALL_TYPE">%1$s</xliff:g> <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g></string>
   <!-- Text displayed in place of the display name for the contact that represents the user's
       personal profile entry [CHAR LIMIT=64] -->
-  <string name="profile_display_name">Config. o perfil</string>
   <!-- Label to instruct the user to type in a contact's name to add the contact as a member of the current group. [CHAR LIMIT=64] -->
-  <string name="enter_contact_name">Introduza o nome da pessoa</string>
   <!-- Hint text in the group name box in the edit group view. [CHAR LIMIT=20]-->
-  <string name="group_name_hint">Nome do Grupo</string>
   <!-- Header label in the contact editor for a profile that is local to the device only (and not associated with any account) [CHAR LIMIT=25] -->
-  <string name="local_profile_title">O meu perfil local</string>
   <!-- Header label in the contact editor for a profile that comes from an external third-party app whose name is given by source [CHAR LIMIT=20] -->
-  <string name="external_profile_title">O meu perfil do <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g></string>
   <!-- Toast shown when the app starts showing all contacts regardless of its current
          contact filter state. [CHAR LIMIT=64] -->
-  <string name="toast_displaying_all_contacts">A apresentar todos os contactos</string>
   <!-- Message in the standard "no account" prompt that encourages the user to add a Google account before continuing to use the People app [CHAR LIMIT=NONE] -->
-  <string name="no_account_prompt">A aplicação Contactos funciona melhor com uma Conta Google.\n\n• Aceda a partir de qualquer navegador de Internet.\n• Faça uma cópia de segurança dos seus contactos de forma segura.</string>
   <!-- Message in the standard "no account" prompt that encourages the user to add any account (non Google-specific) before continuing to use the People app [CHAR LIMIT=NONE] -->
-  <string name="generic_no_account_prompt">Mantenha os seus contactos em segurança, mesmo em caso de perda do telemóvel: sincronize com um serviço on-line.</string>
   <!-- Title of the screen that encourages the user to add any account (non Google-specific) for a better Contacts app experience [CHAR LIMIT=20] -->
-  <string name="generic_no_account_prompt_title">Adicionar uma conta</string>
   <!-- Message in the contact editor prompt that notifies the user that the newly created contact will not be saved to any account, and prompts addition of an account [CHAR LIMIT=NONE] -->
-  <string name="contact_editor_prompt_zero_accounts">Não será efetuada cópia de segurança do novo contacto. Adicionar uma conta que efetua a cópia de segurança dos contactos on-line?</string>
   <!-- Message in the contact editor prompt that asks the user if it's okay to save the newly created contact to the account shown. [CHAR LIMIT=NONE] -->
-  <string name="contact_editor_prompt_one_account">O novo contacto será sincronizado com <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g>.</string>
   <!-- Message in the contact editor prompt that asks the user which account they want to save the newly created contact to. [CHAR LIMIT=NONE] -->
-  <string name="contact_editor_prompt_multiple_accounts">Pode sincronizar o novo contacto com uma das seguintes contas. Qual a conta que deseja utilizar?</string>
   <!-- Title of the ContactEditorActivity when creating a new contact. The char
          limit is short and cannot be increased, since this needs to be displayed in a single line
          at a pre-determined text size. [CHAR LIMIT=20] -->
-  <string name="contact_editor_title_new_contact">Adic. novo contacto</string>
   <!-- Title of the ContactEditorActivity when editing a contact that already exists. The char
          limit is short and cannot be increased, since this needs to be displayed in a single line
          at a pre-determined text size. [CHAR LIMIT=20] -->
-  <string name="contact_editor_title_existing_contact">Editar contacto</string>
   <!-- Button label to indicate that the user wants to save the newly created contact locally (instead of backing it up online) [CHAR LIMIT=20] -->
-  <string name="keep_local">Manter localmente</string>
   <!-- Button label to prompt the user to add an account (when there are 0 existing accounts on the device) [CHAR LIMIT=30] -->
-  <string name="add_account">Adicionar conta</string>
   <!-- Button label to prompt the user to add another account (when there are already existing accounts on the device) [CHAR LIMIT=30] -->
-  <string name="add_new_account">Adicionar nova conta</string>
-  <string name="select_all">Todos</string>
-  <string name="btn_ok">Ok</string>
-  <string name="btn_cancel">Cancelar</string>
-  <string name="menu_sendViaSMS">Enviar contacto via SMS</string>
   <!-- Gray hint displayed in the search field in Contacts when empty -->
-  <string name="search_bar_hint">Pesquisar contactos</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
-  <string name="deleteConfirmation_title">Apagar contacto?</string>
-  <string name="import_sim_contacts_title">Importar contatos do sim</string>
-  <string name="import_sim_contacts_message">Importar contatos do sim...</string>
-  <string name="ContactMultiImportConfirmation">Estes contatos serão importados.</string>
-  <string name="import_finish">"Importação terminada"</string>
-  <string name="import_stop">"Importação parada"</string>
-  <string name="too_many_contacts_add_to_group">Muitos contatos, isto deve ser menor que <xliff:g id="count">%d </xliff:g></string>
   <!-- Multi Delete Contacts related strings -->
-  <string name="ContactMultiDeleteConfirmation">Este contacto será eliminado.</string>
-  <string name="delete_contacts_title">Apagar contactos</string>
-  <string name="delete_contacts_message">A apagar contactos ...</string>
-  <string name="delete_termination">"Apagar é rescisão"</string>
   <!-- Menu item shown only when the special debug mode is enabled, which is used to send all contacts database files via email.  [CHAR LIMI=NONE] -->
-  <string name="menu_export_database">Exportar ficheiros da base de dados</string>
   <!-- add for MemoryStatusActivity -->
-  <string name="menu_memory_status">Estado da memória</string>
-  <string name="memory_status_title">Estado da memória</string>
-  <string name="memory_size">Total:</string>
-  <string name="memory_available">Disponível</string>
-  <string name="memory_used">Utilizada:</string>
-  <string name="no_account">A conta não existe!</string>
-  <string name="contact_detail_picture_description">Imagens. Selecione esta opção para mudar</string>
   <!-- Content description for the button that adds a new contact
          [CHAR LIMIT=NONE] -->
-  <string name="action_menu_add_new_contact_button">adicionar novo contacto</string>
   <!-- Button Label to see more on an ExpandingEntryCardView [CHAR LIMIT=40] -->
-  <string name="expanding_entry_card_view_see_more">Ver mais</string>
   <!-- Button Label to see less on an ExpandingEntryCardView [CHAR LIMIT=40] -->
-  <string name="expanding_entry_card_view_see_less">Ver menos</string>
   <!-- Button Label to see all on an ExpandingEntryCardView [CHAR LIMIT=40] -->
-  <string name="expanding_entry_card_view_see_all">Ver tudo</string>
   <!-- Title of recent card. [CHAR LIMIT=60] -->
-  <string name="recent_card_title">Recentes</string>
   <!-- Title of recent card. [CHAR LIMIT=40] -->
-  <string name="about_card_title">Acerca de</string>
   <!-- Title of sms action entry. [CHAR LIMIT=60] -->
-  <string name="send_message">Enviar mensagem</string>
   <!-- Toast that appears when you are copying a directory contact into your personal contacts -->
-  <string name="toast_making_personal_copy">A criar uma cópia pessoal...</string>
   <!-- Timestamp string for interactions from yesterday. [CHAR LIMIT=40] -->
-  <string name="yesterday">Ontem</string>
-  <string name="tomorrow">Amanhã</string>
   <!-- Timestamp string for interactions from today. [CHAR LIMIT=40] -->
-  <string name="today">Hoje</string>
   <!-- Text for an event starting on the current day with a start and end time.
          For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
-  <string name="today_at_time_fmt">"Hoje, às <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
   <!-- Text for an event starting on the next day with a start and end time.
          For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
-  <string name="tomorrow_at_time_fmt">"Amanhã, às <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
   <!-- Format string for a date and time description.  For ex:
          "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
-  <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
   <!-- Title for untitled calendar interactions [CHAR LIMIT=40] -->
-  <string name="untitled_event">(Evento sem nome)</string>
   <!-- Name of the button in the date/time picker to accept the date/time change [CHAR LIMIT=15] -->
-  <string name="date_time_set">Definir</string>
   <!-- Header for the IM entry [CHAR LIMIT=40] -->
-  <string name="header_im_entry">MI</string>
   <!-- Header for the Organization entry [CHAR LIMIT=40] -->
-  <string name="header_organization_entry">Entidade</string>
   <!-- Header for the Nickname entry [CHAR LIMIT=40] -->
-  <string name="header_nickname_entry">Pseudónimo</string>
   <!-- Header for the Note entry [CHAR LIMIT=40] -->
-  <string name="header_note_entry">Nota</string>
   <!-- Header for the Website entry [CHAR LIMIT=40] -->
-  <string name="header_website_entry">Site Web</string>
   <!-- Header for the Event entry [CHAR LIMIT=40] -->
-  <string name="header_event_entry">Evento</string>
   <!-- Header for the Relation entry [CHAR LIMIT=40] -->
-  <string name="header_relation_entry">Relação</string>
   <!-- Content description for the account field header image. Example accounts listed in this field: Google, Hotmail and Exchange. [CHAR LIMIT=NONE] -->
-  <string name="header_account_entry">Conta</string>
   <!-- Content description for the name fields header entry [CHAR LIMIT=NONE] -->
-  <string name="header_name_entry">Nome</string>
   <!-- Content description for the email fields header entry [CHAR LIMIT=NONE] -->
-  <string name="header_email_entry">Email</string>
   <!-- Content description for the phone fields header entry [CHAR LIMIT=NONE] -->
-  <string name="header_phone_entry">Telemóvel</string>
   <!-- Content description for the camera icon beside the photo section in the Raw Contact Editor [CHAR LIMIT=NONE] -->
-  <string name="header_photo_entry">Fotografia</string>
   <!-- Content description for the expand button inside the raw contact editor's header. [CHAR LIMIT=NONE] -->
-  <string name="content_description_expand_editor">Clique para expandir o editor de contactos.</string>
   <!-- Content description for the collapse button inside the raw contact editor's header. [CHAR LIMIT=NONE] -->
-  <string name="content_description_collapse_editor">Clique para reduzir o editor de contactos.</string>
   <!-- Content description for directions secondary button [CHAR LIMIT=NONE] -->
-  <string name="content_description_directions">direções para a localização</string>
   <!-- Content description for recent sms interaction [CHAR LIMIT=NONE] -->
-  <string name="content_description_recent_sms">sms recente. <xliff:g id="MESSAGE_BODY">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. clique para responder</string>
   <!-- Header for the Relation entry [CHAR LIMIT=NONE] -->
-  <string name="content_description_recent_call_type_incoming">recebida</string>
   <!-- Header for the Relation entry [CHAR LIMIT=NONE] -->
-  <string name="content_description_recent_call_type_outgoing">efetuada</string>
   <!-- Header for the Relation entry [CHAR LIMIT=NONE] -->
-  <string name="content_description_recent_call_type_missed">não atendida</string>
   <!-- Content description for recent sms interaction [CHAR LIMIT=NONE] -->
-  <string name="content_description_recent_call">chamada recente. <xliff:g id="CALL_TYPE">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. clique para ligar de volta</string>
   <!-- Prefix for messages that you sent [CHAR LIMIT=40] -->
-  <string name="message_from_you_prefix">O utilizador: <xliff:g id="SMS_BODY">%s</xliff:g></string>
   <!-- File Authority for the photo picker -->
   <!-- When a user tries to create an IM Hangouts field, an alert dialog pops up displaying this message. We don't want users entering email addresses of phone numbers into the IM field. [CHAR LIMIT=200] -->
-  <string name="contact_editor_hangouts_im_alert">O Hangouts funciona melhor quando introduz o identificador do Hangouts da pessoa no campo do email ou no campo do telefone.</string>
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
-  <string name="compact_editor_more_fields">Mais campos</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
-  <string name="compact_editor_change_photo_content_description">Alterar foto</string>
   <!-- Quick contact display name with phonetic name -->
-  <string name="quick_contact_display_name_with_phonetic"><xliff:g id="DISPLAY_NAME">%s</xliff:g> (<xliff:g id="PHONETIC_NAME">%s</xliff:g>)</string>
   <!-- Menu item used to refresh a specific contact -->
-  <string name="menu_refresh">Atualizar</string>
-  <string name="video_call">Chamada de vídeo</string>
-  <string name="menu_copyTo">"Copiar para "</string>
-  <string name="no_empty_email_in_usim">"Email cheio, algum registro cópia falhou "</string>
-  <string name="add_to_white">Adicionar à Lista Branca</string>
-  <string name="add_to_black">Adicionar à lista negra</string>
-  <string name="voicemail">Correio de Voz</string>
-  <string name="select_call_title">Selecionar os registos de chamadas</string>
-  <string name="delete_call_title">Apagar os registos de chamadas</string>
-  <string name="delete_call_message">A apagar os registos de chamadas ...</string>
-  <string name="delete_call_alert">Certifique-se de apagar os logs de chamada selecionados?</string>
-  <string name="title_del_call">Eliminar</string>
-  <string name="title_add_members">Adicionar membros</string>
-  <string name="add_blacklist_success">"Este número foi adicionado na lista negra com êxito."</string>
-  <string name="add_whitelist_success">"Este número foi adicionado na lista negra com êxito."</string>
-  <string name="remove_blacklist_success">"Este número foi removido da lista negra com êxito."</string>
-  <string name="remove_whitelist_success">"Este número foi removido da lista negra com êxito."</string>
-  <string name="remove_from_black">Remover da lista negra</string>
-  <string name="remove_from_white">Remover da lista de permitidos</string>
-  <string name="remove_blacklist_fail">"Este número foi removido da lista negra falhou."</string>
-  <string name="remove_whitelist_fail">"Este número foi removido do lista branca falhou."</string>
   <!--Toast msg when user select too many contacts to merge-->
-  <string name="too_many_contacts_to_merge_message">Muitos contatos, isto deve ser menor que <xliff:g id="count">%d </xliff:g></string>
 </resources>
