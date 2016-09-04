@@ -84,6 +84,7 @@
   <!-- Menu item used to edit a specific contact -->
   <string name="menu_editContact">修改</string>
   <!-- Menu item used to insert a contact from scanning QR-code -->
+  <string name="menu_insertContactFromQrcod">插入</string>
   <!-- Menu item used to delete a specific contact -->
   <string name="menu_deleteContact">删除</string>
   <!-- Menu item used to change the photo for a specific contact [CHAR LIMIT=30]-->
@@ -199,6 +200,7 @@
   <!-- Toast displayed when a contact is saved [CHAR LIMIT=NONE] -->
   <string name="contactSavedToast">此联系人已保存。</string>
   <!-- Toast displayed when a contact is deleted [CHAR LIMIT=NONE] -->
+  <string name="contactDeletedToast">联系人已删除</string>
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
   <string name="contactSavedErrorToast">无法保存联系人更改。</string>
   <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
@@ -513,6 +515,7 @@
   <string name="memory_available">可用</string>
   <string name="memory_used">已用:</string>
   <string name="no_account">手机上没有账户！</string>
+  <string name="contact_detail_picture_description">图片。选择此选项可更改</string>
   <!-- Content description for the button that adds a new contact
          [CHAR LIMIT=NONE] -->
   <string name="action_menu_add_new_contact_button">添加新联系人</string>
@@ -601,10 +604,13 @@
   <string name="quick_contact_display_name_with_phonetic"><xliff:g id="DISPLAY_NAME">%s</xliff:g> (<xliff:g id="PHONETIC_NAME">%s</xliff:g>)</string>
   <!-- Menu item used to refresh a specific contact -->
   <string name="menu_refresh">刷新</string>
+  <string name="video_call">视频通话</string>
   <string name="menu_copyTo">"复制到"</string>
   <string name="no_empty_email_in_usim">"卡上电子邮件空间已满，部分邮件信息将不会复制 "</string>
   <string name="add_to_white">加入白名单</string>
   <string name="add_to_black">加入黑名单</string>
+  <string name="voicemail">语音信箱</string>
+  <string name="select_call_title">选择呼叫记录</string>
   <string name="delete_call_title">删除通话记录</string>
   <string name="delete_call_message">删除通话记录 ...</string>
   <string name="delete_call_alert">确定要删除选中的通话记录吗?</string>

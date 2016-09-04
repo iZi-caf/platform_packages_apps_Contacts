@@ -84,6 +84,7 @@
   <!-- Menu item used to edit a specific contact -->
   <string name="menu_editContact">Επεξεργασία</string>
   <!-- Menu item used to insert a contact from scanning QR-code -->
+  <string name="menu_insertContactFromQrcod">εισαγωγή</string>
   <!-- Menu item used to delete a specific contact -->
   <string name="menu_deleteContact">Διαγραφή</string>
   <!-- Menu item used to change the photo for a specific contact [CHAR LIMIT=30]-->
@@ -100,6 +101,7 @@
   <string name="menu_editGroup">Επεξεργασία</string>
   <!-- Menu item that deletes the currently selected group [CHAR LIMIT=30] -->
   <string name="menu_deleteGroup">Διαγραφή</string>
+  <string name="menu_moveGroupMembers">Μετακίνηση μελών ομάδας</string>
   <!-- Menu item (in the action bar) that creates a new contact [CHAR LIMIT=30] -->
   <string name="menu_new_contact_action_bar">Προσθήκη επαφής</string>
   <!-- Menu item (in the action bar) that creates a new group [CHAR LIMIT=30] -->
@@ -198,11 +200,25 @@
   <!-- Toast displayed when a contact is saved [CHAR LIMIT=NONE] -->
   <string name="contactSavedToast">Η επαφή αποθηκεύτηκε.</string>
   <!-- Toast displayed when a contact is deleted [CHAR LIMIT=NONE] -->
+  <string name="contactDeletedToast">Η επαφή διαγράφηκε.</string>
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
   <string name="contactSavedErrorToast">Δεν ήταν δυνατή η αποθήκευση των αλλαγών που πραγματοποιήθηκαν στις επαφές.</string>
   <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
   <string name="contactPhotoSavedErrorToast">Δεν ήταν δυνατή η αποθήκευση των αλλαγών που πραγματοποιήθηκαν στη φωτογραφία της επαφής.</string>
   <!-- Toast displayed when saving a contact to sim card failed -->
+  <string name="contactSavedToSimCardError">Σφάλμα, φόρτωση επαφών Sim.</string>
+  <string name="airplane_mode_on">Σφάλμα, η λειτουργία πτήσης είναι ενεργοποιημένη.</string>
+  <string name="number_anr_too_long">Σφάλμα, ο αριθμός είναι πάρα πολύ μεγάλος.</string>
+  <string name="email_address_too_long">Σφάλμα, η διεύθυνση ηλεκτρονικού ταχυδρομείου είναι πολύ μεγάλη.</string>
+  <string name="sim_card_full">Σφάλμα, η κάρτα Sim είναι γεμάτη.</string>
+  <string name="tag_too_long">Σφάλμα, το όνομα της επαφής είναι πολύ μεγάλο.</string>
+  <string name="no_phone_number">Παρακαλώ εισάγετε τον αριθμό τηλεφώνου.</string>
+  <string name="invalid_phone_number">Σφάλμα, ο αριθμός δεν είναι έγκυρος.</string>
+  <string name="invalid_number_type">Σφάλμα, ο τύπος αριθμού δεν είναι έγκυρος.</string>
+  <string name="no_phone_number_or_email">Παρακαλώ εισάγετε έναν τηλεφωνικό αριθμό ή ηλεκτρονική διεύθυνση.</string>
+  <string name="memory_card_full">Σφάλμα, η μνήμη είναι σχεδόν πλήρης.</string>
+  <string name="edit_before_call">Επεξεργασία αριθμού πριν την κλήση</string>
+  <string name="importConfirmation_title">Εισαγωγή επαφής;</string>
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
   <string name="groupSavedToast">Η ομάδα αποθηκεύτηκε.</string>
@@ -232,6 +248,7 @@
   <!-- The title of "favorites" tab. [CHAR LIMIT=14] -->
   <string name="favorites_tab_label">Αγαπημένα</string>
   <!-- The title of "groups" tab. [CHAR LIMIT=14] -->
+  <string name="contacts_groups_label">Ομάδες</string>
   <!-- Action string for calling back a number in the call log -->
   <string name="callBack">Επανάκληση</string>
   <!-- Action string for calling a number in the call log again -->
@@ -277,6 +294,11 @@
   <string name="share_via">Κοινοποίηση μέσω</string>
   <!-- Title for the disambiguation dialog that requests the user choose an account for the new group to be created under [CHAR LIMIT=NONE] -->
   <string name="dialog_new_group_account">Δημιουργία ομάδας στο λογαριασμό</string>
+  <string name="title_move_members">Μετακίνηση μελών</string>
+  <string name="message_add_members">Προσθέστε μέλη...</string>
+  <string name="message_move_members">Μετακινήστε μέλη...</string>
+  <string name="cancel_operation">Η λειτουργία ακυρώθηκε.</string>
+  <string name="message_can_not_move_members">Δεν είναι δυνατή η μετακίνηση των μελών</string>
   <!-- Generic action string for starting an audio chat. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
   <string name="audio_chat">Φωνητική συνομιλία</string>
   <!-- Generic action string for starting a video chat. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
@@ -294,6 +316,7 @@
   <!-- String describing that a contact came from the google account type when editing it.  -->
   <string name="google_account_type_format">Λογαριασμός <xliff:g id="SOURCE">%1$s</xliff:g></string>
   <!-- String describing which account a contact came from when editing it -->
+  <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s </xliff:g></string>
   <!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
   <string name="contact_read_only">Αδυναμία επεξεργασ. από αυτήν την εφαρμ.</string>
   <!-- Text used to explain that a group cannot be edited since the data is read only [CHAR LIMIT=40] -->
@@ -472,12 +495,35 @@
   <string name="add_account">Προσθήκη λογαριασμού</string>
   <!-- Button label to prompt the user to add another account (when there are already existing accounts on the device) [CHAR LIMIT=30] -->
   <string name="add_new_account">Προσθήκη νέου λογαριασμού</string>
+  <string name="select_all">Όλα</string>
+  <string name="btn_ok">ΟΚ</string>
+  <string name="btn_cancel">Ακύρωση</string>
+  <string name="menu_sendViaSMS">Αποστολή επαφής μέσω SMS</string>
   <!-- Gray hint displayed in the search field in Contacts when empty -->
+  <string name="search_bar_hint">Αναζήτηση επαφών</string>
   <!-- Confirmation dialog title after users selects to delete a contact. [CHAR LIMIT=25]-->
+  <string name="deleteConfirmation_title">Διαγραφή επαφής;</string>
+  <string name="import_sim_contacts_title">Εισαγωγή επαφών κάρτας sim</string>
+  <string name="import_sim_contacts_message">Εισαγωγή επαφών κάρτας sim...</string>
+  <string name="ContactMultiImportConfirmation">Αυτές οι επαφές θα εισαχθούν.</string>
+  <string name="import_finish">"Η εισαγωγή ολοκληρώθηκε"</string>
+  <string name="import_stop">"Η εισαγωγή σταμάτησε"</string>
+  <string name="too_many_contacts_add_to_group">Πάρα πολλές επαφές, θα πρέπει να είναι μικρότερες από <xliff:g id="count">%d </xliff:g></string>
   <!-- Multi Delete Contacts related strings -->
+  <string name="ContactMultiDeleteConfirmation">Αυτές η επαφές θα διαγραφούν.</string>
+  <string name="delete_contacts_title">Διαγραφή επαφών</string>
+  <string name="delete_contacts_message">Διαγραφή επαφών...</string>
+  <string name="delete_termination">"H διαγραφή τερματίστηκε"</string>
   <!-- Menu item shown only when the special debug mode is enabled, which is used to send all contacts database files via email.  [CHAR LIMI=NONE] -->
   <string name="menu_export_database">Εξαγωγή αρχείων βάσης δεδομένων</string>
   <!-- add for MemoryStatusActivity -->
+  <string name="menu_memory_status">Κατάσταση μνήμης</string>
+  <string name="memory_status_title">Κατάσταση μνήμης</string>
+  <string name="memory_size">Σύνολο:</string>
+  <string name="memory_available">Διαθέσιμα</string>
+  <string name="memory_used">Σε χρήση:</string>
+  <string name="no_account">Δεν υπάρχει κανένας λογαριασμός!</string>
+  <string name="contact_detail_picture_description">Εικόνα. Επιλέξτε για να αλλάξετε</string>
   <!-- Content description for the button that adds a new contact
          [CHAR LIMIT=NONE] -->
   <string name="action_menu_add_new_contact_button">προσθήκη νέας επαφής</string>
@@ -565,5 +611,27 @@
   <!-- Quick contact display name with phonetic name -->
   <string name="quick_contact_display_name_with_phonetic"><xliff:g id="DISPLAY_NAME">%s</xliff:g> (<xliff:g id="PHONETIC_NAME">%s</xliff:g>)</string>
   <!-- Menu item used to refresh a specific contact -->
+  <string name="menu_refresh">Ανανέωση</string>
+  <string name="video_call">Βιντεοκλήσεις</string>
+  <string name="menu_copyTo">"Αντιγραφή σε "</string>
+  <string name="no_empty_email_in_usim">"Το email είναι πλήρης, κάποια αντίγραφα απέτυχαν "</string>
+  <string name="add_to_white">Προσθήκη στη λευκή λίστα</string>
+  <string name="add_to_black">Προσθήκη στη μαύρη λίστα</string>
+  <string name="voicemail">Αυτ/τος τηλεφωνητής</string>
+  <string name="select_call_title">Επιλογή αρχείων κλήσεων</string>
+  <string name="delete_call_title">Καθαρισμός ιστορικού κλήσεων</string>
+  <string name="delete_call_message">Διαγράφοντας αρχεία καταγραφής κλήσεων...</string>
+  <string name="delete_call_alert">Σίγουρα θέλετε να διαγράψετε το ιστορικό των κλήσεων που επιλέχθηκε;</string>
+  <string name="title_del_call">Διαγραφή</string>
+  <string name="title_add_members">Προσθήκη μελών</string>
+  <string name="add_blacklist_success">"Αυτός ο αριθμός έχει προστεθεί με επιτυχία στη μαύρη λίστα."</string>
+  <string name="add_whitelist_success">"Αυτός ο αριθμός έχει προστεθεί με επιτυχία στην λευκή λίστα."</string>
+  <string name="remove_blacklist_success">"Αυτός ο αριθμός έχει αφαιρεθεί από την μαύρη λίστα με επιτυχία."</string>
+  <string name="remove_whitelist_success">"Αυτός ο αριθμός έχει αφαιρεθεί από την άσπρη λίστα με επιτυχία."</string>
+  <string name="remove_from_black">Αφαιρέστε από τη μαύρη λίστα</string>
+  <string name="remove_from_white">Αφαιρέστε από λευκή λίστα</string>
+  <string name="remove_blacklist_fail">"Απέτυχε η αφαίρεση αυτού του αριθμού από την μαύρη λίστα."</string>
+  <string name="remove_whitelist_fail">"Απέτυχε η αφαίρεση αυτού του αριθμού από την άσπρη λίστα."</string>
   <!--Toast msg when user select too many contacts to merge-->
+  <string name="too_many_contacts_to_merge_message">Πάρα πολλές επαφές, θα πρέπει να είναι μικρότερες από <xliff:g id="count">%d </xliff:g></string>
 </resources>
